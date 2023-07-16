@@ -34,7 +34,7 @@ body {
 	margin:  0 auto;
 }
 .none {
-	display: block;
+	display: none;
 	
 }
 
@@ -76,12 +76,12 @@ body {
 }
 @font-face {
 	font-family: 'Vasek italic';
-	src: url('./fonts/Vasek italic.eot');
-	src: local('./fonts/Vasek italic'), local('../Stolzl-Book'),
-			url('./fonts/Vasek italic.eot?#iefix') format('embedded-opentype'),
-			url('./fonts/Vasek italic.woff2') format('woff2'),
-			url('./fonts/Vasek italic.woff') format('woff'),
-			url('./fonts/Vasek italic.ttf') format('truetype');
+	src: url('../fonts/Vasek italic.eot');
+	src: local('../fonts/Vasek italic'), local('../Stolzl-Book'),
+			url('../fonts/Vasek italic.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Vasek italic.woff2') format('woff2'),
+			url('../fonts/Vasek italic.woff') format('woff'),
+			url('../fonts/Vasek italic.ttf') format('truetype');
 	font-weight: 400;
 	font-style: normal;
 }
