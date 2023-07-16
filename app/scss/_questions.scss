@@ -1,0 +1,131 @@
+.questions {
+  padding-top: 100px;
+  margin-bottom: 100px;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__title-box {
+    display: flex;
+    flex-shrink: 0;
+    width: 385px;
+  }
+
+  &__section-title {
+    text-transform: uppercase;
+    color:  #240532;
+    font-family: 'Winston';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 30px */
+  }
+
+  &__questions-wrapper {
+    width: 100%;
+    border-top: 1px solid #827089;
+  }
+
+  &__accordion-wrapper {
+    transition:  all 0.3s ease-out;
+    border-bottom:1px solid #827089;
+   
+  }
+
+
+  &__accordion {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #240532;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+
+  &__accordion-content {
+    color: #665070;
+    font-family: 'Winston';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137%; /* 21.92px */
+    padding: 0px 0px 0px 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition:  all 0.3s ease-out;
+
+  }
+
+  &__span-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #827089;
+    position: relative;
+    display: block;
+    &::before {
+      content:'';
+      width: 60%;
+      height: 1px;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background-color: #827089;
+      transform: translate(-50%,-50%);
+      opacity: 1;
+    }
+    &::after {
+      content:'';
+      width: 1px;
+      height: 60%;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background-color: #827089;
+      transform: translate(-50%,-50%);
+      transition: 0.3s ;
+    }
+  }
+}
+.container {
+}
+.title-all {
+}
+
+.open-accordion {
+  transition:  all 0.3s ease-out;
+  background-color: #D6FF3F;
+  border-left: 1px solid #827089;
+  border-right: 1px solid #827089;
+  // .questions__accordion-wrapper {
+  //   border-left: 1px solid #827089
+  // }
+}
+
+.padding-active {
+  padding-bottom: 20px;
+}
+
+.active-icon {
+  .questions__span-icon {
+    &::after {
+      transition: 0.3s ;
+      transform: translate(-50%, -50%) rotate(90deg) ;
+    }
+    &::before {
+      opacity: 0;
+    }
+  }
+  
+}
+
+

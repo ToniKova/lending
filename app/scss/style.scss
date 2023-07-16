@@ -1,0 +1,92 @@
+@import 'reset';
+@import 'header';
+@import 'best';
+@import 'about';
+@import 'popular';
+@import 'run-string';
+@import 'layouts';
+@import 'news';
+@import 'questions';
+@import 'contacts';
+@import 'footer';
+
+
+
+body {
+	position: relative;
+	background-color: #F9F7F8;
+	font-family: 'Winston', sans-serif;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.container {
+	max-width: 1550px;
+	padding: 0 15px;
+	margin:  0 auto;
+}
+.none {
+	display: none;
+	
+}
+
+
+/*Подключение шрифта=========================*/
+
+@font-face {
+	font-family: 'Winston';
+	src: url('../fonts/Winston.eot');
+	src: local('../fonts/Winston-bold'), local('../Stolzl-Book'),
+			url('../fonts/Winston-bold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Winston-bold.woff2') format('woff2'),
+			url('../fonts/Winston-bold.woff') format('woff'),
+			url('../fonts/Winston-bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Winston';
+	src: url('../fonts/Winston.eot');
+	src: local('../fonts/Winston-Medium'), local('../Stolzl-Book'),
+			url('../fonts/Winston-Medium.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Winston-Medium.woff2') format('woff2'),
+			url('../fonts/Winston-Medium.woff') format('woff'),
+			url('../fonts/Winston-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Winston';
+	src: url('../fonts/Winston.eot');
+	src: local('../fonts/Winston-Regular'), local('../Stolzl-Book'),
+			url('../fonts/Winston-Regular.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Winston-Regular.woff2') format('woff2'),
+			url('../fonts/Winston-Regular.woff') format('woff'),
+			url('../fonts/Winston-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Vasek italic';
+	src: url('../fonts/Vasek italic.eot');
+	src: local('../fonts/Vasek italic'), local('../Stolzl-Book'),
+			url('../fonts/Vasek italic.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Vasek italic.woff2') format('woff2'),
+			url('../fonts/Vasek italic.woff') format('woff'),
+			url('../fonts/Vasek italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+
+

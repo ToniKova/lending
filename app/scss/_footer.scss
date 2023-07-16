@@ -1,0 +1,53 @@
+.footer {
+
+  &__wrapper {
+    border-top: 1px solid #827089;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+  }
+
+  &__menu {
+    display: flex;
+
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 23px;
+    }
+  }
+
+  &__link {
+    color:#665070;
+    font-family: 'Winston';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137%; /* 21.92px */
+    transition: 0.4s ;
+
+    &:not(:last-child) {
+      margin-right: 23px;
+    }
+    &:hover {
+      transition: 0.4s ;
+      text-shadow: 0px 0px 7px #240532;
+    }
+  }
+
+  &__name-teg {
+	  font-family: 'Vasek italic';
+    color:#665070;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.container {
+}
+
+
+

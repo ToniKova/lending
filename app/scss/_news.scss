@@ -1,0 +1,126 @@
+.news {
+
+  &__wrapper {
+    display: flex;
+    
+  }
+
+  &__title-box {
+    display: flex;
+    flex-shrink: 0;
+    width: 385px;
+  }
+
+  &__section-title {
+    color: #240532;
+    font-family: 'Winston';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 30px */
+  }
+
+  &__contest-wrapper {
+    // padding: 20px;
+    position: relative;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    // background-image: url('../images/contest-bg.webp');
+    // background-repeat: no-repeat;
+    // background-position: center;
+  }
+
+  &__contest {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 642px;
+  }
+
+  &__contest-content {
+    border-radius: 3px;
+    background: radial-gradient(231.00% 135.80% at 0.90% 2.98%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(21px);
+    padding: 20px;
+    
+  }
+
+  &__contest-titele {
+    color:  #240532;
+    font-family: 'Winston';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 30px */
+    margin-bottom: 14px;
+  }
+
+  &__contest-text {
+    color:#240532;
+    font-family: 'Winston';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137%; /* 21.92px */
+    margin-bottom: 27px;
+    max-width: 550px;
+
+  }
+
+  &__state-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__state {
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    svg {
+      margin-right: 10px;
+    }
+    span {
+      font-family: 'Vasek italic';
+      color: #240532;
+      font-size: 34px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: lowercase;
+    }
+  }
+
+  &__deadline {
+    color: #240532;
+    font-family: 'Winston';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137%; /* 21.92px */
+  }
+
+  &__contest-btn {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    padding: 14px 42px;
+    background-color: #D6FF3F;
+    border-radius: 40px;
+    border-radius: 40px;
+    border: 1px solid #827089;
+    transition: 0.6s;
+    &:hover {
+      transition: 0.6s;
+      color: #fff;
+      background-color:  #240532;
+    }
+  }
+}
+
+
+
