@@ -145,6 +145,7 @@
     }
   }
 
+
   &__img-btn {
     bottom: 82px;
     right: 60px;
@@ -170,6 +171,12 @@
       background-color: #240532;
     }
   }
+
+  .best__img-adaptive {
+    display: none;
+  }
+
+
 
 
 
@@ -330,7 +337,6 @@
   }
   @media(max-width: 640px) {
 
-
     .best {
       &__img-item {
         display: none;
@@ -386,6 +392,7 @@
         }
 
         &__adaptive-img {
+          display: block;
           border-radius: 50px 50px 0px 0px;
         }
         
