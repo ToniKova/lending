@@ -180,6 +180,10 @@
     display: none;
   }
 
+  .best__img-mobail {
+    display: none;
+  }
+
 
 
 
@@ -421,6 +425,25 @@
         display: none;
       }
       &__teg-btn {
+        display: none;
+      }
+    }
+  }
+  @media(max-width: 425px) {
+    .best {
+      &__title {
+        margin: 0px 0px 10px 0px;
+        font-size: 28px;
+      }
+
+      &__img-adaptive {
+        display: none;
+      }
+      &__img-mobail {
+        display: block;
+        border-radius: 50px 50px 0px 0px;
+      }
+      &__img-btn {
         display: none;
       }
     }
