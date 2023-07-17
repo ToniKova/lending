@@ -76,7 +76,11 @@
   display: none;
 }
 
-@media (max-width: 1000px) {
+.header__logo-adaptive {
+  display: none;
+}
+
+@media(max-width: 1000px) {
   .header {
     position: relative;
     z-index: 5;
@@ -261,5 +265,17 @@
   }
   .rotete-icon{
 
+  }
+}
+@media(max-width: 425px) {
+  .header {
+    padding: 10px 0px;
+    &__logo {
+     display: none;
+    }
+
+    &__logo-adaptive {
+      display: block;
+    }
   }
 }

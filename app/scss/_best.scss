@@ -172,6 +172,10 @@
     }
   }
 
+  .best__btn-adaptive {
+    display: none;
+  }
+
   .best__img-adaptive {
     display: none;
   }
@@ -320,11 +324,12 @@
         box-shadow: 4px 4px 8px 0px rgba(189,188,237,.25), -4px -4px 8px 0px rgba(255,255,255,.8);
         color: var(--text-black, #240532);
         font-size: 46px;
-        font-family: "Vasek italic";
+        font-family: "Vasek-Italic";
         font-style: italic;
         font-weight: 400;
         line-height: normal;
         text-transform: lowercase;
+        display: inline-block;
         &:not(:last-child) {
           margin-right: 10px;
         }
@@ -390,13 +395,33 @@
           width: 13px;
           height: 13px;
         }
-
-        &__adaptive-img {
-          display: block;
-          border-radius: 50px 50px 0px 0px;
-        }
-        
+      }
+      &__btn-adaptive {
+        display: inline-block;
+      }
       
+      &__img-adaptive {
+        display: block;
+      }
+    }
+  }
+  @media(max-width: 639px) {
+    .best {
+      &__bg-button-adaptive {
+        display: none;
+      }
+    }
+  }
+  @media(max-width: 572px) {
+    .best {
+      &__title {
+        font-size: 33px;
+      }
+      &__btn-adaptive {
+        display: none;
+      }
+      &__teg-btn {
+        display: none;
       }
     }
   }
