@@ -43,12 +43,12 @@ body {
 
 @font-face {
 	font-family: 'Winston';
-	src: url('../fonts/Winston.eot');
-	src: local('../fonts/Winston-bold'), local('../Stolzl-Book'),
-			url('../fonts/Winston-bold.eot?#iefix') format('embedded-opentype'),
-			url('../fonts/Winston-bold.woff2') format('woff2'),
-			url('../fonts/Winston-bold.woff') format('woff'),
-			url('../fonts/Winston-bold.ttf') format('truetype');
+	src: url('../fonts/Winston-Bold.eot');
+	src: local('../fonts/Winston-Bold'), local('../Stolzl-Book'),
+			url('../fonts/Winston-Bold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Winston-Bold.woff2') format('woff2'),
+			url('../fonts/Winston-Bold.woff') format('woff'),
+			url('../fonts/Winston-Bold.ttf') format('truetype');
 	font-weight: 700;
 	font-style: normal;
 }
