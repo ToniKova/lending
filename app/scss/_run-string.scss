@@ -27,17 +27,6 @@
     font-family: 'Winston';
     font-weight: 700;
     text-transform: uppercase;
-    // &::before {
-    //   position: absolute;
-    //   top: 50%;
-    //   transform: translateY(-50%);
-    //   right: 0px;
-    //   content: '';
-    //   width: 40px;
-    //   height: 40px;
-    //   background-image: url('../images/string-iconl.svg');
-    //   display: block;
-    // }
    
   }
   @keyframes runing {
@@ -46,6 +35,15 @@
     }
     100% {
       transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+
+  @media(max-width: 500px) {
+    .run-string {
+      &__inner {
+        display: none;
+      }
     }
   }
   
