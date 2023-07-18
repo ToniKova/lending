@@ -26,5 +26,21 @@ if (slider) {
 
     // Центральный слайд
     centeredSlides : true,
+
+    breakpoints: {
+      500: {
+        centeredSlides : false,
+        slidesPerView: 2.6,
+        spaceBetween: 20,
+      },
+      1000: {
+        spaceBetween: 20,
+      },
+      1310: {
+        slidesPerView: 3,
+        centeredSlides : true,
+        spaceBetween: 95,
+      },
+    },
   })
 }
