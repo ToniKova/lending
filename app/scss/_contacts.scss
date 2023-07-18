@@ -3,6 +3,8 @@
   &__wrapper-background {
     position: absolute;
     z-index: -10;
+    left: 50%;
+    transform: translate(-50%);
   }
 
   &__wrapper {
@@ -38,16 +40,20 @@
   }
 
   &__form {
-    width: 750px;
+    max-width: 750px;
+  }
+
+  &__wrapper-label {
+    display: flex;
   }
 
   &__label {
     border-radius: 2px;
     display: inline-block;
     border: 1px solid #827089;
-    width: 373px;
-    &:last-child {
-      width: 360px;
+    width: 50%;
+    &:first-child {
+      margin-right: 5px;
     }
   
   }
@@ -199,4 +205,79 @@
 }
 
 
+@media(max-width: 1310px) {
+  .contacts {
+    &__title-box {
+      width: 280px;
+    }
+  } 
+}
+@media(max-width: 1100px) {
+  .contacts {
+    &__title-box {
+      width: 170px;
+    }
+  } 
+}
+@media(max-width: 1000px) {
+  .contacts {
+    &__wrapper {
+      display: block;
+    }
+    &__title-box {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    &__string-text {
+      padding: 40px 0px;
+      font-size: 26px;
+    }
+  } 
+}
+@media(max-width: 640px) {
+  .contacts {
+    &__wrapper-label {
+      display: block;
+    }
+    &__label {
+      width: 100%;
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+    &__label-check {
+      display: none;
+    }
+    &__form-desc {
+      br {
+        display: none;
+      }
+    }
+    &__telegram-input {
+      margin-bottom: 20px;
+    }
+
+  } 
+}
+@media(max-width: 600px) {
+  .contacts {
+    &__wrapper-background {
+      display: none;
+    }
+  }
+ 
+}
+@media(max-width: 425px) {
+  .contacts {
+    &__run-string {
+      display: none;
+    }
+    &__form-btn {
+      width: 100%;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  }
+}
+ 
 

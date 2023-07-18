@@ -38,7 +38,15 @@
     }
   }
 
+  @media(max-width: 765px) {
+    .run-string__text {
+      font-size: 26px;
+    }
+    // .run-string__inner {
+    //   font-size: 26px;
+    // }
 
+  }
   @media(max-width: 500px) {
     .run-string {
       &__inner {

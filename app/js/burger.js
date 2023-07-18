@@ -4,6 +4,6 @@ openBtn.addEventListener('click', openBurger)
 function openBurger () {
   const burgerWrapper = document.querySelector('.header__burger-wrapper')
   burgerWrapper.classList.toggle('burger-open')
-  openBtn.classList.toggle('active-icon')
+  openBtn.classList.toggle('active-icon-burger')
   document.body.classList.toggle('no-scroll')
 }

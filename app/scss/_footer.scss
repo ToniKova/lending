@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
+    align-items: center;
 
   }
 
@@ -46,7 +47,28 @@
     line-height: normal;
   }
 }
-.container {
+
+
+@media(max-width: 700px) {
+  .footer {
+    &__wrapper {
+      padding: 10px 0px;
+    }
+    &__link {
+      font-size: 14px;
+    }
+    &__item:not(:last-child) {
+      margin-right: 10px;
+    }
+    
+  } 
+}
+@media(max-width: 530px) {
+  .footer {
+    &__name-teg {
+      display: none;
+    }
+  } 
 }
 
 
