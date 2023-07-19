@@ -1,5 +1,6 @@
 .popular {
   padding-top: 30px;
+  padding-bottom: 100px;
 
   &__wrapper {
     display: flex;
@@ -282,6 +283,7 @@
 }
 @media(max-width: 1000px) {
   .popular {
+    padding-bottom: 80px;
     &__wrapper {
       display: block;
     }

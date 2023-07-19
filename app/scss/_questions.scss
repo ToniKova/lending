@@ -1,6 +1,6 @@
 .questions {
-  padding-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 0px;
+  padding-bottom: 100px;
 
   &__wrapper {
     display: flex;
@@ -152,7 +152,6 @@
 }
 @media(max-width: 1000px) {
   .questions {
-    padding-top: 80px;
     padding-bottom: 80px;
     margin-bottom: 0px;
     &__wrapper {
