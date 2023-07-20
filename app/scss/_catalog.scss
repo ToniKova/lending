@@ -1,0 +1,215 @@
+.catalog {
+  padding-bottom: 100px;
+  padding-top: 82px;
+
+  &__wrapper {
+  }
+
+  &__wrapper-top {
+    border-top: 1px solid #827089;
+    border-bottom: 1px solid #827089;
+    display: flex;
+    padding-bottom: 20px;
+
+  }
+
+  &__svg-box {
+    padding-top: 24px;
+    display: flex;
+    flex-shrink: 0;
+    width: 385px;
+  }
+
+  &__space-between {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title-wrapper {
+    padding-bottom: 21px;
+    position: relative;
+  }
+
+  &__title {
+    color: #240532;
+    font-family: 'Vasek-Italic';
+    font-size: 163px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__text {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    color: #240532;
+    font-family: 'Winston';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  &__span-box {
+    padding-top: 24px;
+    .catalog__title-span {
+      color: #918299;
+      font-family: 'Vasek-Italic';
+      font-size: 33px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  &__wrapper-categoties {
+    display: flex;
+
+  }
+
+  &__categoties-all {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    width: 385px;
+    color: #240532;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+
+  &__wrapper-sort {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+  }
+
+  &__categoties-filter {
+    text-transform: uppercase;
+
+    color: #240532;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+
+  &__categoties-sort {
+    text-transform: uppercase;
+
+    color: #240532;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+
+  &__wrapper-bottom {
+    display: flex;
+    border-top: 1px solid #827089;
+  }
+
+  &__side-menu {
+    padding-top: 20px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    width: 385px;
+  }
+
+  &__all-button {
+    display: inline-block;
+    width: 57px;
+    text-align: left;
+    padding: 2px 0px;
+    background-color: transparent;
+    // background-color: #D6FF3F;
+
+    color: #240532;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+
+  &__side-accordion {
+    margin-top: 20px;
+    cursor: pointer;
+    color:  #240532;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+
+  &__side-content {
+    padding-left: 20px;
+  }
+
+  &__side-item-lending {
+    color: #665070;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+
+  &__side-item-vizet {
+    color: #665070;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+
+  &__side-item-corporat {
+    color: #665070;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+
+  &__side-item-market {
+    color: #665070;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+
+  &__side-item-news {
+    color: #665070;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+
+  &__side-item-services {
+    color: #665070;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
+}
+.container {
+}
