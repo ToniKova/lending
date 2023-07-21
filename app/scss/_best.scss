@@ -296,6 +296,7 @@
     }
   }
   @media(max-width: 1024px) {
+    padding-top: 70px;
     .best {
       &__title {
         font-size: 55px;
@@ -435,8 +436,10 @@
     }
   }
   @media(max-width: 425px) {
+    padding-top: 50px;
     .best {
       padding-bottom: 40px;
+      
       &__title {
         margin: 0px 0px 10px 0px;
         font-size: 28px;

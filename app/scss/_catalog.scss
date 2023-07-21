@@ -210,6 +210,33 @@
     font-weight: 500;
     line-height: 120%; /* 24px */
   }
+
+
+
+  &__cards-wrapper {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+
+  &__img-wrapper {
+    img {
+      width: 100%;
+      height: auto;
+    }
+    margin-bottom: 10px;
+  }
+
+  &__cards-description {
+    color:  #240532;
+    font-family: 'Winston';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+  }
 }
 .container {
 }
