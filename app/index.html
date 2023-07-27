@@ -36,10 +36,10 @@
                   <a class="header__link" href="catalog.html">Макеты</a>
                 </li>
                 <li class="header__item">
-                  <a class="header__link" href="#news">Новости</a>
+                  <a data-goto=".section-scroll" class="header__link" href="#news">Новости</a>
                 </li>
                 <li class="header__item">
-                  <a class="header__link" href="#contacts">Контакты</a>
+                  <a data-goto=".section-scroll-contact" class="header__link" href="#contacts">Контакты</a>
                 </li>
               </ul>
             </nav>
@@ -141,9 +141,9 @@
               <button class="best__btn-adaptive">#лендинг</button>
               <button class="best__btn-adaptive">#корпоративный</button>
               <div class="best__tag-box">
-                <button class="best__teg-btn">#лендинг</button>
-                <button class="best__teg-btn">#интернет-магазин</button>
-                <button class="best__teg-btn">#корпоративный</button>
+                <a href="#!" class="best__teg-btn">#лендинг</a>
+                <a href="#!" class="best__teg-btn">#интернет-магазин</a>
+                <a href="#!" class="best__teg-btn">#корпоративный</a>
                 <div class="best__teg-stars">
                   <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 15C7.485 10.863 4.13291 7.5139 0 7.5139C4.14213 7.5139 7.5 4.14977 7.5 0C7.51493 4.13704 10.8671 7.4861 15 7.4861C10.8578 7.4861 7.5 10.8502 7.5 15Z" fill="#240532"/>
@@ -673,7 +673,7 @@
           </div>
         </div>
       </section>
-      <section class="news" id="news">
+      <section class="news section-scroll" id="news" >
         <div class="container">
           <div class="news__wrapper">
             <div class="news__title-box">
@@ -783,7 +783,7 @@
           </div>
         </div>
       </section>
-      <contacts class="contacts" id="contacts">
+      <contacts class="contacts section-scroll-contact" id="contacts">
         <div class="container">
          <div class="contacts__wrapper-background">
           <img src="images/footer-bg.svg" alt="background-section">

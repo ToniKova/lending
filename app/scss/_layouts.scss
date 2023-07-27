@@ -63,7 +63,7 @@
   &__swiper-button-next {}
 
   &__btn-wrapper {
-    z-index: 150;
+    z-index: 3;
     bottom: 140px;
     right: 220px;
     position: absolute;
@@ -169,6 +169,11 @@
     }
   }
 }
+@media(max-width: 1350px) {
+  .layouts__btn-wrapper {
+    right: 200px;
+  }
+}
 @media(max-width: 1310px) {
   .layouts { 
     padding-bottom: 100px;
@@ -182,6 +187,7 @@
       }
     }
     &__btn-wrapper {
+      bottom: -50px;
       right: 0px;
       // transform: translate(-50%);
     }

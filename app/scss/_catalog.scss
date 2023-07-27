@@ -9,6 +9,9 @@
     border-bottom: 1px solid #827089;
     display: flex;
     padding-bottom: 20px;
+    background-image: url('../images/page-line-fone.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
   }
 
@@ -99,6 +102,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 24px */
+    .catalog__number-span {
+      color: #918299;
+    }
   }
 
   &__categoties-sort {
@@ -150,6 +156,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 24px */
+    margin-bottom: 10px;
+
   }
 
   &__side-content {
@@ -163,6 +171,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 24px */
+    margin-bottom: 10px;
   }
 
   &__side-item-vizet {
@@ -172,6 +181,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 24px */
+    margin-bottom: 10px;
+
   }
 
   &__side-item-corporat {
@@ -181,6 +192,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 24px */
+    margin-bottom: 10px;
+
   }
 
   &__side-item-market {
@@ -190,6 +203,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 24px */
+    margin-bottom: 10px;
+
   }
 
   &__side-item-news {
@@ -199,6 +214,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 24px */
+    margin-bottom: 10px;
+
   }
 
   &__side-item-services {
@@ -208,15 +225,16 @@
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 24px */
+    margin-bottom: 10px;
+
   }
-
-
 
   &__cards-wrapper {
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 30px;
   }
 
 
@@ -235,6 +253,37 @@
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 24px */
+  }
+
+
+  &__btn-box {
+    text-align: center;
+  }
+
+  &__btn-more {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #918299;
+    border-radius: 50%;
+
+  }
+}
+
+.background-active {
+  background-color:#D6FF3F;
+  position: relative;
+  &::before {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    
+    content: '';
+    width: 11px;
+    height: 11px;
+    display: block ;
+    background-image: url('../images/side-icon.svg');
   }
 }
 
