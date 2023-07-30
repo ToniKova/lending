@@ -297,6 +297,9 @@
     font-weight: 500;
     line-height: 120%; /* 24px */
   }
+  &__wrapper-link {
+    display: none;
+  }
 
 
   &__btn-box {
@@ -311,6 +314,10 @@
     border: 1px solid #918299;
     border-radius: 50%;
 
+  }
+
+  &__wrapper-adaptive {
+    display: none;
   }
 
 
@@ -380,7 +387,7 @@
 }
 @media(max-width: 1000px) {
   .catalog {
-    padding-top: 70px;
+    padding-top: 50px;
   }
   .catalog__title-wrapper {
     padding-bottom: 0px;
@@ -475,4 +482,109 @@
   .catalog__span-box .catalog__title-span {
     font-size: 20px;
   }
+}
+@media(max-width: 630px) {
+ 
+  .catalog__categoties-all{
+    font-size: 14px;
+    width: 130px;
+  }
+  .catalog__categoties-filter{
+    font-size: 14px;
+  }
+  .catalog__categoties-sort {
+    font-size: 14px;
+  }
+  .catalog__text {
+    width: 100%;
+  }
+  .catalog__title {
+    font-size: 90px;
+  }
+}
+@media(max-width: 550px) {
+  .catalog__wrapper-top{
+    border-bottom: none;
+  }
+  .catalog__svg-box {
+    width: 60px;
+  }
+  .catalog__wrapper-categoties {
+    display: none;
+  }
+}
+@media(max-width: 520px) {
+  .catalog__svg-box {
+    width: 50px;
+  }
+}
+@media(max-width: 500px) {
+  .catalog {
+    padding-bottom: 30px;
+  }
+  .catalog__cards-wrapper {
+    margin-bottom: 0px;
+  }
+  .catalog__wrapper-adaptive {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 14px 0px;
+    border: 1px solid #827089;
+    border-radius: 40px;
+  }
+  .catalog__btn-adaptive {
+    text-transform: uppercase;
+    color: var(--text-black, #240532);
+    font-family: 'Winston';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137%; /* 21.92px */
+  }
+  .catalog__btn-box {
+    display: none;
+  }
+  .catalog__wrapper-link {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 14px 0px;
+    border: 1px solid #827089;
+    border-radius: 40px;
+  }
+  .catalog__cards-link {
+    text-transform: uppercase;
+    color: var(--text-black, #240532);
+    font-family: 'Winston';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137%; /* 21.92px */
+
+  }
+  .catalog__wrapper-bottom {
+    justify-content: center;
+  }
+  .catalog__cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .catalog__svg-box {
+    display: none;
+  }
+  .catalog__span-box .catalog__title-span {
+    display: none;
+  }
+  .catalog__space-between {
+    justify-content: center;
+  }
+  .catalog__title {
+    padding: 10px 0px;
+    font-size: 70px;
+  }
+  .catalog__text {
+    font-size: 14px;
+  }
+
 }
