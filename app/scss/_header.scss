@@ -4,7 +4,11 @@
   left: 0;
   right: 0;
   // border-bottom: 1px solid #918299;
-  background-color: #F9F7F8;
+  // background-color: #f9f7f8;
+  // opacity: 0.9;
+  background-color: rgb(247, 249, 248,0.7);
+  backdrop-filter: blur(40px);
+  // background: transparent;
   z-index: 20;
 
   &__inner {
